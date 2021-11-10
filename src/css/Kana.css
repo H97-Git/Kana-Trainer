@@ -1,0 +1,26 @@
+#Kana {
+  font-size: 35vh;
+  font-size: 40vh;
+  font-weight: 900;
+}
+
+#Kana {
+  color: #e0e3f9;
+  text-shadow: -0.0075em 0.0075em 0 #f3f4fd, 0.005em 0.005em 0 #adb3ef, 0.01em 0.01em 0 #b1b7ef, 0.015em 0.015em #b5bbf0, 0.02em 0.02em 0 #b9bef1, 0.025em 0.025em 0 #bdc2f2, 0.03em 0.03em 0 #c1c6f3, 0.035em 0.035em 0 #c5caf4;
+}
+
+#Kana.win {
+  transition: all ease 0.2s;
+  transform: scale(1.2);
+  color: #e0f7ea;
+  text-shadow: -0.0075em 0.0075em 0 #f2fcf6, 0.005em 0.005em 0 #abebc6, 0.01em 0.01em 0 #b0ecc9, 0.015em 0.015em #b4edcc, 0.02em 0.02em 0 #b8eecf, 0.025em 0.025em 0 #bcefd2, 0.03em 0.03em 0 #c0f0d4, 0.035em 0.035em 0 #c4f1d7;
+}
+
+#Kana.lose {
+  transition: all ease 0.2s;
+  transform: scale(0.8);
+  color: #1d0906;
+  text-shadow: -0.0075em 0.0075em 0 #0c0303, 0.005em 0.005em 0 #4d1711, 0.01em 0.01em 0 #491610, 0.015em 0.015em #45150f, 0.02em 0.02em 0 #41130f, 0.025em 0.025em 0 #3d120e, 0.03em 0.03em 0 #3a110d, 0.035em 0.035em 0 #36100c;
+}
+
+/*# sourceMappingURL=Kana.css.map */

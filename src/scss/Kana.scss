@@ -1,0 +1,53 @@
+$kana-color:#3141d6;
+$kana-color-win:#2ecc71;
+$kana-color-lose:#c0392b;
+
+
+#Kana {
+    font-size: 35vh;
+    font-size: 40vh;
+    font-weight: 900;
+}
+
+#Kana {
+    color: mix(#fff, $kana-color, 85%);
+    text-shadow:
+        -0.0075em 0.0075em 0 mix(#fff, $kana-color, 94%),
+        0.005em 0.005em 0 mix(#fff, $kana-color, 60%),
+        0.01em 0.01em 0 mix(#fff, $kana-color, 62%),
+        0.015em 0.015em mix(#fff, $kana-color, 64%),
+        0.02em 0.02em 0 mix(#fff, $kana-color, 66%),
+        0.025em 0.025em 0 mix(#fff, $kana-color, 68%),
+        0.03em 0.03em 0 mix(#fff, $kana-color, 70%),
+        0.035em 0.035em 0 mix(#fff, $kana-color, 72%);
+}
+
+#Kana.win {
+    transition: all ease 0.2s;
+    transform: scale(1.2);
+    color: mix(#fff, $kana-color-win, 85%);
+    text-shadow:
+        -0.0075em 0.0075em 0 mix(#fff, $kana-color-win, 94%),
+        0.005em 0.005em 0 mix(#fff, $kana-color-win, 60%),
+        0.01em 0.01em 0 mix(#fff, $kana-color-win, 62%),
+        0.015em 0.015em mix(#fff, $kana-color-win, 64%),
+        0.02em 0.02em 0 mix(#fff, $kana-color-win, 66%),
+        0.025em 0.025em 0 mix(#fff, $kana-color-win, 68%),
+        0.03em 0.03em 0 mix(#fff, $kana-color-win, 70%),
+        0.035em 0.035em 0 mix(#fff, $kana-color-win, 72%);
+}
+
+#Kana.lose {
+    transition: all ease 0.2s;
+    transform: scale(0.8);
+    color: mix(#000, $kana-color-lose, 85%);
+    text-shadow:
+        -0.0075em 0.0075em 0 mix(#000, $kana-color-lose, 94%),
+        0.005em 0.005em 0 mix(#000, $kana-color-lose, 60%),
+        0.01em 0.01em 0 mix(#000, $kana-color-lose, 62%),
+        0.015em 0.015em mix(#000, $kana-color-lose, 64%),
+        0.02em 0.02em 0 mix(#000, $kana-color-lose, 66%),
+        0.025em 0.025em 0 mix(#000, $kana-color-lose, 68%),
+        0.03em 0.03em 0 mix(#000, $kana-color-lose, 70%),
+        0.035em 0.035em 0 mix(#000, $kana-color-lose, 72%);
+}

@@ -1,0 +1,76 @@
+$color1:#3141d6;
+$color2:#3c4de7;
+
+.switch_box {
+    margin: 1em;
+}
+
+.input_wrapper {
+    height: 40px;
+    position: relative;
+    cursor: pointer;
+}
+
+.input_wrapper input[type="checkbox"] {
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+    appearance: none;
+    background: #{$color2};
+    border-radius: 2px;
+    position: relative;
+    outline: 0;
+    transition: all .2s;
+}
+
+.input_wrapper input[type="checkbox"]:after {
+    position: absolute;
+    content: "";
+    top: 3px;
+    left: 3px;
+    width: 34px;
+    height: 34px;
+    background: var(--var-clouds);
+    z-index: 2;
+    border-radius: 2px;
+    -webkit-transition: all .35s;
+    transition: all .35s;
+}
+
+.input_wrapper svg {
+    position: absolute;
+    top: 50%;
+    transform-origin: 50% 50%;
+    fill: var(--var-clouds);
+    transition: all .35s;
+    z-index: 1;
+}
+
+.input_wrapper .is_checked {
+    width: 18px;
+    left: 18%;
+    transform: translateX(190%) translateY(-50%) scale(0);
+}
+
+.input_wrapper .is_unchecked {
+    width: 15px;
+    right: 15%;
+    transform: translateX(0) translateY(-50%) scale(1.5);
+}
+
+/* Checked State */
+.input_wrapper input[type="checkbox"]:checked {
+    background: #{$color2};
+}
+
+.input_wrapper input[type="checkbox"]:checked:after {
+    left: calc(100% - 37px);
+}
+
+.input_wrapper input[type="checkbox"]:checked+.is_checked {
+    transform: translateX(0) translateY(-50%) scale(1.5);
+}
+
+.input_wrapper input[type="checkbox"]:checked~.is_unchecked {
+    transform: translateX(-190%) translateY(-50%) scale(0);
+}

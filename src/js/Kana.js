@@ -1,0 +1,12 @@
+export const A = ["A", "I", "U", "E", "O"],
+    K = ["KA", "KI", "KU", "KE", "KO"],
+    S = ["SA", "SHI", "SU", "SE", "SO"],
+    T = ["TA", "CHI", "TSU", "TE", "TO"],
+    N = ["NA", "NI", "NU", "NE", "NO"],
+    H = ["HA", "HI", "HU", "HE", "HO"],
+    M = ["MA", "MI", "MU", "ME", "MO"],
+    R = ["RA", "RI", "RU", "RE", "RO"],
+    Y = ["YA", "YU", "YO"],
+    W = ["WA", "WO"],
+    X = ["N"],
+    FULL = A.concat(K, S, T, N, H, M, R, Y, W, X);
